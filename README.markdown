@@ -63,9 +63,27 @@ run `bundle install`
 
 ## Results
 
+```
+R to restart, N for next, B for back, arrow keys to play.
+Current Level: 3
+Crates Left: 10
+############
+#..  #     ###
+#..  # o  o  #
+#..  #o####  #
+#..    @ ##  #
+#..  # #  o ##
+###### ##o o #
+  # o  o o o #
+  #    #     #
+  ############
+```
+
 ## Review
 
 Arrived at a solution, but quite verbose.
+
+Consider separating out some responsibilities from the Board class. Right now it's taking on too much.
 
 ## License
 
