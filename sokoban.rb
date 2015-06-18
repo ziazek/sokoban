@@ -129,6 +129,7 @@ class Board
       end
       y += 1
     end
+  end
 
   def render  
     grid.each do |y, x_hash|
